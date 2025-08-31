@@ -1,0 +1,13 @@
+{
+	"servers": {
+		"my-mcp-server-f8d539b2": {
+			"type": "stdio",
+			"command": "uv",
+			"args": [
+				"run",
+				"src/agents/tools/calculator_tool.py"
+			]
+		}
+	},
+	"inputs": []
+}

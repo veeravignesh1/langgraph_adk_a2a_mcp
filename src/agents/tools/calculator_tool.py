@@ -70,8 +70,8 @@ app = mcp.http_app(path=f"{settings.mcp_prefix}/mcp")
 
 # Option 2:
 # Run it with python for local dev / fast iteration
-# if __name__ == "__main__":
-#     mcp.run(transport="http", host="0.0.0.0", port=8000)
+if __name__ == "__main__":
+    mcp.run(transport="http", host="0.0.0.0", port=8000)
 
 ## Transport: STDIO
 # if __name__ == "__main__":
